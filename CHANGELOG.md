@@ -12,7 +12,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Fixed
 
- - Select I2S/SAI clock sources before enabling PLLs, as required by the reference manual [#879]
+ - Select I2S/SAI clock sources before enabling PLLs, as `RCC_DCKCFGR` requires [#879]
  - Fix `rcc` module-level doc example to use current `Config/freeze` API [#876]
 
 ### Changed
